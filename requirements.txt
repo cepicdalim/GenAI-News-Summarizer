@@ -1,0 +1,9 @@
+requests 
+beautifulsoup4 
+spacy 
+sentence-transformers 
+langchain-community 
+langchain-huggingface
+faiss-cpu
+termcolor
+openai
