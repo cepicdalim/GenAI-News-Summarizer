@@ -110,3 +110,16 @@ To run a specific test, navigate to the `tests` directory and execute the follow
 ```bash
 PYTHONPATH=src python -m unittest test_<module_name>.py
 ```
+
+## Workflows
+
+<div style="display: flex; justify-content: space-around; align-items: baseline;">
+  <div style="text-align: center;">
+    <p><strong>Scraping Workflow</strong></p>
+    <img src="images/scraping-workflow.svg" alt="Scraping Workflow" style="width: 80%; border: 1px solid #ddd; border-radius: 8px; padding: 5px;">
+  </div>
+  <div style="text-align: center;">
+    <p><strong>Search Workflow</strong></p>
+    <img src="images/search-workflow.svg" alt="Search Workflow" style="width: 80%; border: 1px solid #ddd; border-radius: 8px; padding: 5px;">
+  </div>
+</div>
