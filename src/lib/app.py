@@ -19,7 +19,7 @@ class NewsApp:
         
         while True:
             self.logger.info("1. Scrape and analyze article(s)")
-            self.logger.info("3. Search for articles in the database")
+            self.logger.info("2. Search for articles in the database")
             
             choice = input("Choose an option (1/2) or 'q' to quit: ").strip()
             if choice  == "q":
