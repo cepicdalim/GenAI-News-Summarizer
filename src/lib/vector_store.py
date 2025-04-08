@@ -22,18 +22,16 @@ class VectorStore:
         self.model_on_ready.wait()  
         """Stores the article, summary, and topics in the vector database with metadata."""
         # Combine all text for embedding (to capture meaning across all fields)
-        combined_text = f"{article['title']}\n{article['content']}\n{summary}\n{topics}"
         
         self.logger.debug("Storing article, summary, and topics in vector database...")
         # Create metadata to store separately
         metadata = {
             "url": article["url"],
             "title": article["title"],
-            "content": article["content"],
             "summary": summary,
             "topics": topics
         }
-        self._upsert(combined_text, metadata)
+        self._upsert(article["content"], metadata)
 
         self.logger.debug("Article, summary, and topics successfully stored in vector database.")
 

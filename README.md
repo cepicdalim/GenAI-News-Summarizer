@@ -113,13 +113,17 @@ PYTHONPATH=src python -m unittest test_<module_name>.py
 
 ## Workflows
 
-<div style="display: flex; justify-content: space-around; align-items: baseline;">
-  <div style="text-align: center;">
-    <p><strong>Scraping Workflow</strong></p>
-    <img src="images/scraping-workflow.svg" alt="Scraping Workflow" style="width: 80%; border: 1px solid #ddd; border-radius: 8px; padding: 5px;">
-  </div>
-  <div style="text-align: center;">
-    <p><strong>Search Workflow</strong></p>
-    <img src="images/search-workflow.svg" alt="Search Workflow" style="width: 80%; border: 1px solid #ddd; border-radius: 8px; padding: 5px;">
-  </div>
-</div>
+<table align="center">
+    <tr>
+        <th align="center">Scraping Workflow</th>
+        <th align="center">Search Workflow</th>
+    </tr>
+    <tr>
+        <td align="center">
+        <img src="images/scraping-workflow.svg" alt="Scraping Workflow" width="200">
+        </td>
+        <td align="center">
+        <img src="images/search-workflow.svg" alt="Search Workflow" width="200">
+        </td>
+    </tr>
+</table>
