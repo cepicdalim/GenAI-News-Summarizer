@@ -178,3 +178,4 @@ cython_debug/
 *.faiss.index
 
 cached_models
+.DS_Store
